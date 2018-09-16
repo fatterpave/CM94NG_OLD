@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CM94NG", "CM94NG\CM94NG.csproj", "{7E2623A3-271C-4BF5-A869-848AF3AA54CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CM94NGEditor", "CM94NGEditor\CM94NGEditor.csproj", "{35DDFBF4-130A-4CB0-98A3-306FE6B619EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E2623A3-271C-4BF5-A869-848AF3AA54CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2623A3-271C-4BF5-A869-848AF3AA54CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2623A3-271C-4BF5-A869-848AF3AA54CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2623A3-271C-4BF5-A869-848AF3AA54CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DDFBF4-130A-4CB0-98A3-306FE6B619EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DDFBF4-130A-4CB0-98A3-306FE6B619EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DDFBF4-130A-4CB0-98A3-306FE6B619EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DDFBF4-130A-4CB0-98A3-306FE6B619EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,226 @@
+﻿[
+  {
+
+    "Level": 0,
+    "Name": "Premier League",
+    "Clubs": [
+      {
+        "Id": 1,
+        "Name": "Manchester United",
+        "City": "Manchester",
+        "PrimaryColor": "Red",
+        "SecondaryColor": "245,247,247,0",
+        "NickName": "The Red Devils",
+        "StadiumCapacity": 80000,
+        "StadiumName": "Old Trafford",
+        "Funds": 100000000,
+        "Manager": {
+          "Id": 1,
+          "FirstName": "Alex",
+          "LastName": "Ferguson",
+          "BirthDate": "1950-04-04",
+          "Personality": "SELFISH",
+          "Potential": 200,
+          "CurrentPotential": 200,
+          "PlayerInfluence": 20
+        },
+        "Players": [
+          {
+            "Id": 1,
+            "FirstName": "Ryan",
+            "LastName": "Giggs",
+            "BirthDate": "1973-03-22",
+            "Personality": "DECISIVE",
+            "Position": {
+              "Midfield": true,
+              "Left": true
+            },
+            "Contract": {
+              "Expiry": "1995-01-01",
+              "Salary": 50000,
+              "StartDate": "1992-01-01"
+            },
+            "Attributes": {
+              "Stamina": 14,
+              "Passing": 20,
+              "Auto": 18
+            },
+            "History": [
+              {
+                "ClubId": 1,
+                "StartDate": "1991-01-01",
+                "EndDate": "1992-01-01",
+                "Average": 8.56,
+                "Goals": 2,
+                "Assists": 3
+              },
+              {
+                "ClubId": 1,
+                "StartDate": "1992-01-01",
+                "EndDate": "1993-01-01",
+                "Average": 8.72,
+                "Goals": 21,
+                "Assists": 1
+              }
+            ],
+            "Average": 5.6,
+            "Goals": 3,
+            "Assists": 1,
+            "YellowCards": 1
+          },
+          {
+            "Id": 2,
+            "FirstName": "Peter",
+            "LastName": "Schmeichel",
+            "BirthDate": "1971-04-11",
+            "Personality": "RASH",
+            "Position": {
+              "Goalkeeper": true,
+              "Left": true
+            },
+            "Contract": {
+              "Expiry": "1998-01-01",
+              "Salary": 20000,
+              "StartDate": "1995-01-01"
+            },
+            "Attributes": {
+              "Goalkeeping": 20,
+              "Passing": 20,
+              "Potential": 200,
+              "CurrentPotential": 177,
+              "Auto": 18
+            },
+            "History": [
+              {
+                "ClubId": 2,
+                "StartDate": "1994-01-01",
+                "EndDate": "1995-01-01",
+                "Average": 7.03,
+                "Goals": 0,
+                "Assists": 0
+              }
+            ],
+            "Average": 8.6,
+            "Goals": 0,
+            "Assists": 0,
+            "YellowCards": 2
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Liverpool FC",
+        "City": "Liverpool",
+        "PrimaryColor": "Red",
+        "SecondaryColor": "White",
+        "NickName": "The Reds",
+        "StadiumCapacity": 70000,
+        "StadiumName": "Anfield Road",
+        "Funds": 50000000,
+        "Manager": {
+          "Id": 2,
+          "FirstName": "Kenny",
+          "LastName": "Dalgliesh",
+          "BirthDate": "1946-04-04",
+          "Personality": "ARROGANT",
+          "Potential": 200,
+          "CurrentPotential": 200,
+          "PlayerInfluence": 20
+        },
+        "Players": [
+          {
+            "Id": 3,
+            "FirstName": "Mark",
+            "LastName": "Wright",
+            "BirthDate": "1970-01-22",
+            "Personality": "DECISIVE",
+            "Position": {
+              "Midfield": true,
+              "Defender": true,
+              "Center": true
+            },
+            "Contract": {
+              "Expiry": "1997-01-01",
+              "Salary": 20000,
+              "StartDate": "1990-01-01"
+            },
+            "Attributes": {
+              "Stamina": 12,
+              "Passing": 12,
+              "Strength": 20,
+              "Auto": 14
+            },
+            "History": [
+              {
+                "ClubId": 2,
+                "StartDate": "1989-01-01",
+                "EndDate": "1990-01-01",
+                "Average": 4.56,
+                "Goals": 1,
+                "Assists": 1
+              },
+              {
+                "ClubId": 2,
+                "StartDate": "1991-01-01",
+                "EndDate": "1992-01-01",
+                "Average": 3.72,
+                "Goals": 2,
+                "Assists": 0
+              }
+            ],
+            "Average": 6.6,
+            "Goals": 1,
+            "Assists": 1,
+            "YellowCards": 1,
+            "RedCards": 1
+          },
+          {
+            "Id": 4,
+            "FirstName": "RObbie",
+            "LastName": "Fowler",
+            "BirthDate": "1975-04-11",
+            "Personality": "RASH",
+            "Position": {
+              "Forward": true,
+              "Center": true
+            },
+            "Contract": {
+              "Expiry": "1998-01-01",
+              "Salary": 110000,
+              "StartDate": "1993-01-01"
+            },
+            "Attributes": {
+              "Goalscoring": 20,
+              "Passing": 10,
+              "Potential": 196,
+              "CurrentPotential": 155,
+              "Auto": 18
+            },
+            "History": [
+              {
+                "ClubId": 2,
+                "StartDate": "1994-01-01",
+                "EndDate": "1995-01-01",
+                "Average": 7.03,
+                "Goals": 0,
+                "Assists": 0
+              }
+            ],
+            "Average": 8.33,
+            "Goals": 22,
+            "Assists": 3,
+            "YellowCards": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Name": "Premiership",
+    "Clubs": [
+      { "Name": "Nottingham Forest" },
+      { "Name": "Tranmere Rovers"}
+    ]
+  }
+]
